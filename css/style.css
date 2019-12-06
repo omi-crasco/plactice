@@ -76,12 +76,18 @@ header{
 
 #main_top_subscription{
     height: 150px;
+    width: 100%;
     position: relative;
+    background-color: white;
 }
-.sabscription_infomation{
+#main_top_subscription p{
+    position: absolute;
+    top: 20%;
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    -ms-eransform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .sabscription_btn1{
     /* ボタンの位置や大きさ調整 */
