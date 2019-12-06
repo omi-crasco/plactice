@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダー */
+header{
+    height: 90px;
+    background-color: rgb(254, 255, 236);
+    position: relative;
+}
+#header_inner{
+    position: relative;
+}
+#logo{
+    margin-left: 40px;
+    float: left;
+}
+.logo{
+    height: 90px;
+    width: 100px;
+}
+.logo-text{
+    margin-bottom: 25px;
+    height: 40px;
+    width: 200px;
+}
+#contact_btn{
+    margin-right: 5%;
+    position: relative;
+    top: 45px;
+    -webkit-transform: translateY(-50%);    
+    transform: translateY(-50%);
+    float: right;
+    background-color: rgb(86, 212, 243);
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+#contact_btn:hover{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    -webkit-transform: translateY(-52%);
+    transform: translateY(-52%);
+}
+#header_text{
+    float: right;
+    margin-right: 50px;
+    margin-top: 45px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#main_sea{
+    position: relative;
+}
+.view_sea{
+    background-image: url("../image/sea.jpg");
+    width: 100vw;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main_sea h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 50px;
+}
+
+#main_top_subscription{
+    height: 150px;
+    position: relative;
+}
+.sabscription_infomation{
+    -webkit-transform: translate(-50%, -50%);
+    -ms-eransform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.sabscription_btn1{
+    /* ボタンの位置や大きさ調整 */
+}
+
+/* メイン */
+main{
+    height: 600px;
+    background-color:  rgb(214, 214, 179);
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+
+
+footer{
+    height: 100px;
+    background-color: rgb(195, 233, 255);
+   
+}
